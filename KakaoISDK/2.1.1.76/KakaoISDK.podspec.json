@@ -1,0 +1,41 @@
+{
+  "name": "KakaoISDK",
+  "version": "2.1.1.76",
+  "summary": "KakaoISDK.",
+  "homepage": "https://github.kakaocorp.com/AIServiceICell/kakaoi-ios",
+  "authors": {
+    "KakaoISDK": "jake.ios@kakaoenterprise.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "http://maven.daumcorp.com/content/repositories/daum/com/kakao/i/sdk-ios/2.1.1.76/sdk-ios-2.1.1.76.zip"
+  },
+  "frameworks": [
+    "AVFoundation",
+    "SystemConfiguration"
+  ],
+  "libraries": "c++",
+  "requires_arc": true,
+  "user_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "Frameworks"
+  },
+  "vendored_frameworks": "KakaoISDK.framework",
+  "resource_bundles": {
+    "KakaoISDK": [
+      "KakaoISDK.framework/*.nib",
+      "KakaoISDK.framework/*.cfg",
+      "KakaoISDK.framework/*.bin",
+      "KakaoISDK.framework/*.car",
+      "KakaoISDK.framework/*.wav",
+      "KakaoISDK.framework/*.cer",
+      "KakaoISDK.framework/*.bundle"
+    ]
+  },
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright (c) Kakao Corp. All rights reserved."
+  },
+  "description": "KakaoI SDK for iOS"
+}
