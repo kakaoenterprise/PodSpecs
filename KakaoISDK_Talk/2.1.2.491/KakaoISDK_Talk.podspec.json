@@ -1,0 +1,33 @@
+{
+  "name": "KakaoISDK_Talk",
+  "version": "2.1.2.491",
+  "summary": "KakaoISDK.",
+  "homepage": "https://github.daumkakao.com/A-TF/kakaoi-switify-sdk-ios",
+  "authors": {
+    "KakaoISDK": "jake.kopo@kakaocorp.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "http://maven.daumcorp.com/content/repositories/daum/com/kakao/i/sdk-ios/2.1.2.491/sdk-ios-2.1.2.491.zip"
+  },
+  "frameworks": [
+    "AVFoundation",
+    "SystemConfiguration"
+  ],
+  "libraries": "c++",
+  "requires_arc": true,
+  "user_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "Frameworks"
+  },
+  "vendored_frameworks": "KakaoISDK.framework",
+  "resources": [
+    "KakaoISDK.framework/*.bundle"
+  ],
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright (c) Kakao Corp. All rights reserved."
+  },
+  "description": "KakaoI SDK for iOS"
+}
